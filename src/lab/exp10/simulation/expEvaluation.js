@@ -906,3 +906,4 @@ window.view = {
 } 
 
 window.onload = function () { view.init() }
+
