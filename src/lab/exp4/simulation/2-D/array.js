@@ -137,7 +137,7 @@ window.view = {
 		var size = this.rowsB * this.colsB
 		for ( i = 0 ; i < size ; i++)
 		{
-			var random = Math.floor(Math.random()*15)
+			var random = i+1
 			this.matrixB.push(random)
 		}
 		this.disableButton('generateB')
