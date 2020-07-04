@@ -1,3 +1,11 @@
+
+function hide(){
+	document.getElementById('userInput').style.display = "none";
+}
+function show(){
+	document.getElementById('userInput').style.display = "block";
+} 
+
 window.view = {
 	numbers: new Array(),
 	lastRedDiv: new Object(),
