@@ -121,7 +121,7 @@ window.view = {
 		var size = this.rowsA * this.colsA
 		for ( i = 0 ; i < size ; i++)
 		{
-			var random = Math.floor(Math.random()*15)
+			var random = i+1 //no need to be random
 			this.matrixA.push(random)
 		}
 		this.resetRowsAndCols()
