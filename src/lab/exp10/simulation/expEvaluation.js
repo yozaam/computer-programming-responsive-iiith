@@ -548,6 +548,10 @@ window.view = {
 		this.enableElement('b')
 		this.enableElement('c')
 		this.enableElement('d')
+		this.a = document.getElementById('a').value=0
+		this.b = document.getElementById('b').value=0
+		this.c = document.getElementById('c').value=0
+		this.d = document.getElementById('d').value=0
 		document.getElementById('buttonEdit').className += ' hide'
 		document.getElementById('buttonSave').className = 'button saveButton'
 	},
